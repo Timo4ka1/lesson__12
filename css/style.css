@@ -1,0 +1,93 @@
+.wrapper{
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+}
+
+[class*="__container"]{
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+body{
+   background-color: #333;
+}
+
+/* ========================= */
+
+.house__square{
+   transform: translate(20%, 50%) scale(0.8);
+}
+
+.house__roof{
+   transform: translate(-80%, 20%) scale(0.8) rotate(135deg);
+}
+
+.house__window{
+   transform: scale(0.5) translate(10%, -100%);
+}
+
+.house__door{
+   transform: scale(0.8) translate(-110%, -62.5%);
+}
+
+/* ========================= */
+.rocket__container{
+   display: block;
+   margin-bottom: 200px;
+   transform: skew(30deg) translateX(5%); 
+}
+
+.rocket__triangle{
+   transform: translate(0%, -60%) scale(0.5);
+}
+
+.rocket__body{
+   transform: scale(0.9) translate(-113%, 10%);
+}
+
+.rocket__windows{
+   width: 0;
+   height: 0;
+   transform: scale(0.5);
+}
+
+.window1{
+   transform: translate(50%, -180%);
+}
+
+.window2{
+   transform: translate(50%, -195%);
+}
+
+.rocket__fire{
+   width: 0;
+   height: 0;
+   transform: scale(0.3);
+}
+
+.fire1{
+   transform: translate(70%, -5%) rotate(45deg);
+}
+
+.fire2{
+   transform: translate(120%, -100%);
+}
+
+.fire3{
+   transform: translate(170%, -205%) rotate(-45deg);
+}
+
+.rocket__squares{
+   width: 0;
+   height: 0;
+   transform: scale(0.5);
+}
+
+.square1{
+   transform: translate(-30%, -84%);
+}
+
+.square2{
+   transform: translate(139%, -184%);
+}
